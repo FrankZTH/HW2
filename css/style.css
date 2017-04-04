@@ -16,6 +16,8 @@ body {
 }*/
 .container{
   margin: 0px auto;
+  width: 1300px;
+  height: 1500px;
 }
 
 h1,h2{
