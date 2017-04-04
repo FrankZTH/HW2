@@ -1,0 +1,161 @@
+h1,h2,ul,li,p{
+    margin: 0;
+    padding: 0px;
+    text-decoration: none;            /*消除連結的底線*/
+    color: black;
+}
+body {
+    margin: 0px auto;
+    background-color: #DDD;
+    font-family: Arial;
+
+  }
+/*header{
+  position: relative;                 隨著螢幕大小改變
+  margin-top: 53px;
+}*/
+.container{
+  margin: 0px auto;
+}
+
+h1,h2{
+  color: #FFF;
+  font-family: "Arial Black" ,sans-serif;/*圓圓的*/
+}
+a {
+    display: inline-block;             /*可以設定寬高*/
+}
+.top{
+  background-image: url('img/cover.png');
+  background-size: 1280px;
+  height: 330px;
+  display: inline-block;
+  border-radius: 3px;
+}
+.top,.contain{
+  max-width: 1280px;
+  margin: auto;
+  display: block;
+  clear:both;
+}
+.logo{
+  float:left;                         /*靠左對齊*/
+  margin-bottom: 15px;
+  display: inline-block;
+}
+.logo img{
+  width: 315px;
+  height: 103px;
+}
+.nav{
+  clear:both;
+  display: inline-block;
+  position: relative;
+  background-color: #ddd;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+.nav li{
+  display: inline-block;             /*讓nav變成一條線*/
+  padding: 16px 22px;
+  line-height: 1;
+}
+.nav a{
+  text-decoration: none;
+  color: #000;
+  font-family: "Microsoft JhengHei" ,sans-serif;
+  font-weight:bold;
+  font-size: 18px;
+}
+.icon{
+  margin-top: 30px;
+  float: right;
+}
+.FB{
+  margin-right: 20px;
+}
+.IG{
+  margin-right: 20px;
+}
+.Google{
+  margin-right: 20px;
+}
+.slogan_1{
+  margin-top: 130px;
+  margin-left: 30px;
+}
+.slogan_2{
+  margin-left: 320px;
+}
+.slogan_1 h1,.slogan_2 h1{
+  font-family: "Microsoft JhengHei" ,sans-serif;
+  color: #000;
+}
+.top_contain,.bottom_contain{
+  display: inline-block;
+}
+.contain p{
+  width: 300px;
+  height: 130px;
+  font-family: "Microsoft JhengHei" ,sans-serif;
+}
+.contain img{
+  height: 300px ;
+  width: 300px ;
+  border-radius: 3px;
+}
+.title_1,.title_2{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 220px;
+  color: #eee;
+  background-color: #666;
+  font-size: 15px;
+  padding: 10px 12px;
+  line-height: 1;
+  text-align: center;
+  border-radius: 3px;
+}
+.title_1 h1,.title_2 h1{
+  font-family: "Microsoft JhengHei" ,sans-serif;
+}
+.TD_RACER,.TD_賽菲洛挑戰賽20,.TD_創市神,.童心協印,.TD_文具小學堂,.雞年行大運{
+  float: left;
+}
+.TD_賽菲洛挑戰賽20,.TD_文具小學堂{
+  margin-left: 190px;
+  margin-right: 190px;
+}
+/*.TD_創市神{
+  float: right;
+}*/
+.TD_RACER_1,.TD_賽菲洛挑戰賽20_1,.TD_創市神_1,.童心協印_1,.TD_文具小學堂_1,.雞年行大運_1{
+  margin-bottom: 10px;
+  display: block;
+  color: #fff;
+  background-color: #333;
+  font-size: 18px;
+  padding: 10px 12px;
+  line-height: 1;
+  border-radius: 3px;
+  font-family: "Microsoft JhengHei" ,sans-serif;
+  text-decoration: none;
+}
+
+
+
+.footer{
+  clear: both;
+  background-color: #333;
+  height: 60px;
+}
+.footer p{
+  position: relative;
+  top: 24px;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  font-family: "ArialMT";
+}
