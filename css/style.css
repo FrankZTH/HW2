@@ -5,7 +5,7 @@ h1,h2,ul,li,p{
     color: black;
 }
 body {
-    margin: auto;
+    margin: 0px auto;
     background-color: #DDD;
     font-family: Arial;
 
@@ -14,7 +14,9 @@ body {
   position: relative;                 隨著螢幕大小改變
   margin-top: 53px;
 }*/
-
+.container{
+  margin: 0px auto;
+}
 
 h1,h2{
   color: #FFF;
