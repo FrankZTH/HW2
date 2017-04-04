@@ -14,10 +14,10 @@ body {
   position: relative;                 隨著螢幕大小改變
   margin-top: 53px;
 }*/
-.container{
+.top,.contain{
   margin: 0px auto;
   width: 1300px;
-  height: 1500px;
+  height: 1300px;
 }
 
 h1,h2{
@@ -152,6 +152,7 @@ a {
   clear: both;
   background-color: #333;
   height: 60px;
+  width:
 }
 .footer p{
   position: relative;
